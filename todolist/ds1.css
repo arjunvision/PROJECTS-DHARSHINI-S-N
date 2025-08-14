@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(154, 74, 174);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+h1{
+    text-align: center;
+    color: rgb(36, 17, 41);
+}
+.tasks-container{
+    width: 90%;
+    max-width: 650px;
+    margin: 25px;
+}
+.task-box{
+    box-shadow: 0 4px 6px rgba(151, 58, 58, 0.1);
+    padding: 18px;
+    background-color: rgb(91, 15, 135);
+    border-radius: 10px;
+    position: relative;
+}
+.task-box h2{
+    margin: 0 0 5px;
+    color: rgb(191, 166, 204);
+}
+.task-box p{
+    margin: 0 0 10px;
+    color: #bda1d1;
+}
+.delete-btn{
+    position: absolute;
+    top: 40px;
+    right: 15px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: 1px solid;
+    background-color: rgb(158, 16, 234);
+}
+.add-task-form{
+    display: none;
+    flex-direction: column;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 18px;
+    width: 90%;
+    max-width: 650px;
+    margin-top: 20px;
+}
+.add-task-form input{
+    width: 90%;
+    display: block;
+    padding: 9px;
+    border: 1px solid;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.add-task-btn{
+    background-color: #4B0082;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    height: 30px;
+    cursor: pointer;
+}
+.add-btn{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #4B0082;
+    color: white;
+    width: 60px;
+    height: 60px;
+    font-size: 35px;
+    border-radius: 50%;
+    border: none;
+}
